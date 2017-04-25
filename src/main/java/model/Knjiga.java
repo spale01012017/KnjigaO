@@ -93,8 +93,7 @@ public class Knjiga {
     public Knjiga() {
     }
 
-    public Knjiga(int id, String oznaka, int rasponKrila, int brojStrana) {
-        this.id = id;
+    public Knjiga(String oznaka, int rasponKrila, int brojStrana) {
         this.oznaka = oznaka;
         this.rasponKrila = rasponKrila;
         this.brojStrana = brojStrana;
