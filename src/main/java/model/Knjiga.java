@@ -28,7 +28,7 @@ public class Knjiga {
     @DatabaseField(columnName = POLJE_DATUM_IZDANJA,canBeNull = false)
     private Date datumIzdanja;
     private  boolean prisutna;
-    private ForeignCollection<Roba> roba;
+    private ForeignCollection<Oblast> oblast;
 
     public int getId() {
         return id;
